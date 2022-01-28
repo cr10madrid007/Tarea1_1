@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="TAREA 1.1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry Keyboard="Numeric"
+                Placeholder="Ingrese N1"
+                VerticalOptions="CenterAndExpand" x:Name="txtN1" />
+
+        <Entry Keyboard="Numeric"
+                Placeholder="Ingrese N2"
+                VerticalOptions="CenterAndExpand" x:Name="txtN2"/>
+
+        <Button Text="Sumar" x:Name="btnSumar" Clicked="btnSumar_Clicked"/>
+        <Button Text="Restar" x:Name="btnRestar" Clicked="btnRestar_Clicked"/>
+        <Button Text="Dividir" x:Name="btnDividir" Clicked="btnDividir_Clicked"/>
+        <Button Text="Multiplicar" x:Name="btnMultiplicar" Clicked="btnMultiplicar_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
